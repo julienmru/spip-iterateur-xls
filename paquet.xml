@@ -1,0 +1,17 @@
+<paquet
+	prefix="iterateur_xls"
+	categorie="outil"
+	version="1.0.0"
+	etat="dev"
+	compatibilite="[3.0.0;3.1.*]"
+	documentation="http://contrib.spip.net/iterateur_xls"
+>
+
+	<nom>Itérateur XLS</nom>
+
+	<auteur lien="http://www.cahri.com">Julien Tessier, Agence Cahri</auteur>
+	<credit lien="https://github.com/nuovo/spreadsheet-reader">spreadsheet-reader par nuovo</credit>
+
+	<licence>GNU/GPL</licence>
+
+</paquet>
