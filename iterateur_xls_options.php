@@ -1,6 +1,8 @@
 <?php
 
 function iterateur_xls_convert(&$reader) {
+	include_spip('inc/charsets');
+
 	$datas = [];
 	
 	$header = FALSE;

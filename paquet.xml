@@ -1,7 +1,7 @@
 <paquet
 	prefix="iterateur_xls"
 	categorie="outil"
-	version="1.0.0"
+	version="1.0.1"
 	etat="dev"
 	compatibilite="[3.0.0;3.1.*]"
 	documentation="http://contrib.spip.net/iterateur_xls"
