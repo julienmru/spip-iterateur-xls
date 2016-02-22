@@ -11,7 +11,8 @@
 	<nom>Itérateur XLS</nom>
 
 	<auteur lien="http://www.cahri.com">Julien Tessier, Agence Cahri</auteur>
-	<credit lien="https://github.com/nuovo/spreadsheet-reader">spreadsheet-reader par nuovo</credit>
+	<credit lien="https://github.com/nuovo/spreadsheet-reader">spreadsheet-reader de Martins Pilsetnieks</credit>
+	<credit lien="http://code.google.com/p/php-excel-reader/">Spreadsheet_Excel_Reader de Matt Kruse</credit>
 
 	<licence>GNU/GPL</licence>
 
