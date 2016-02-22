@@ -22,7 +22,7 @@ function iterateur_xls_convert(&$reader) {
 		} else {
 			$data = [];
 			foreach($header as $k => $v) {
-				if (!is_utf8($v)) $v = utf8_encode($v);
+				if (!is_utf8($row[$v])) $row[$v] = utf8_encode($row[$v]);
 				$data[$k] = $row[$v];
 			}
 			$datas[] = $data;
