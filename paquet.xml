@@ -5,6 +5,7 @@
 	etat="dev"
 	compatibilite="[3.0.0;3.1.*]"
 	documentation="http://contrib.spip.net/iterateur_xls"
+	logo="images/logo_iterateur_xls_32.png"
 >
 
 	<nom>Itérateur XLS</nom>
