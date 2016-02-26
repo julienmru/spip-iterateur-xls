@@ -8,6 +8,8 @@ Ce plugin permet d’utiliser des fichiers XLS, XLSX ou ODS dans des boucles DAT
 <BOUCLE_fichier_openoffice(DATA){source ods,monfichier.ods}>
 ```
 
+La première ligne est considérée comme le titre des colonnes. Vous pouvez ensuite accéder aux données via #TITRE_DE_LA_COLONNE (si le titre est "Titre de la colonne") ou #COL_A (pour la colonne A).
+
 ## Librairies tierces utilisées
 
 ### [spreadsheet-reader](https://github.com/nuovo/spreadsheet-reader) de Martins Pilsetnieks

@@ -18,7 +18,9 @@ function iterateur_xls_convert(&$reader) {
 				$v = preg_replace('/__+/', '_', $v);
 				$v = trim($v, '_');
 				$header[$v] = $k;
+				$header['col_'.iterateur_xls_num2alpha($k)] = $k;
 			}
+
 		} else {
 			$data = [];
 			foreach($header as $k => $v) {
@@ -30,4 +32,12 @@ function iterateur_xls_convert(&$reader) {
 	}
 
 	return $datas;
+}
+
+// Source : http://stackoverflow.com/questions/3302857/algorithm-to-get-the-excel-like-column-name-of-a-number
+function iterateur_xls_num2alpha($n)
+{
+    for($r = ""; $n >= 0; $n = intval($n / 26) - 1)
+        $r = chr($n%26 + 0x61) . $r;
+    return $r;
 }
