@@ -4,7 +4,7 @@ function inc_xlsx_to_array_dist($data, $options = []) {
 
 	if ($data) {
 
-		$file = 'tmp/cache/'.uniqid('xls');
+		$file = _DIR_CACHE.uniqid('xls');
 
 		file_put_contents($file, $data);
 		unset($data);
