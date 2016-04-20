@@ -8,7 +8,8 @@ function inc_ods_to_array_dist($data, $options = []) {
 
 		file_put_contents($file, $data);
 		unset($data);
-
+		
+		include_spip('lib/spreadsheet-reader/SpreadsheetReader');
 		$reader = new SpreadsheetReader($file, 'dummy.ods', 'application/vnd.oasis.opendocument.spreadsheet');
 
 		$datas = iterateur_xls_convert($reader);
