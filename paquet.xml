@@ -4,7 +4,7 @@
 	version="1.0.5"
 	etat="stable"
 	compatibilite="[3.0.0;3.1.*]"
-	documentation="http://contrib.spip.net/iterateur_xls"
+	documentation="http://contrib.spip.net/iterateur-xls"
 	logo="images/logo_iterateur_xls_32.png"
 >
 
